@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma Project2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css
+
+    ">
+    
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    
+    <!-- NAVBAR -->
+    <div class="nav">
+        <div class="logo"><img src="dappr.png" alt=""></div>
+        
+        <ul class="ulist">
+        <li class="home">Home</li>
+        <li >About Us</li>
+        <li>Information</li>
+        <li class="arrow">More <i class="fa-solid fa-chevron-down"></i></li>
+        <li class="srch"> <input type="text" placeholder="Search..."   >
+
+            <i class="fa-solid fa-magnifying-glass"  id="zoom" style="color: #9399a5;"></i> 
+        
+        </li>
+        <button><i class="fa-solid fa-bars fa-lg"></i></button>
+    </ul>
+    </div>
+
+    <div class="container">
+        <div class="left">
+            <img src="Group 1.png" alt="">
+        </div>
+        <div class="text"> <p>It's not only writers who can benefit from this free online tool. If you're a programmer who's working on a .......</p>
+            <img src="Rectangle 4.png" alt="">
+        </div>
+        <div class="social" id="social">
+            <img src="Frame 2.png" alt="">
+        </div>
+    </div>
+
+    <div class="price">
+        <div class="box1">Total Question’s <br><br>
+            200,000</div>
+        <div class="box2">Total Answer’s
+            <br><br>
+            105,000
+        </div>
+        <div class="box3">Participated <br><br>
+        10,000</div>
+        <div class="box4">Total Paased <br><br> 
+        6000 </div>
+        <div> <img src="logo.png" alt=""></div>
+       
+        
+    </div>
+    <div class="profile">
+        <div class="left1">
+            <div class="your">YOUR INFO</div>
+            <div class="book">BOOKMARKS</div>
+            <div class="set">SETTINGS</div>
+        </div>
+        <div class="right">
+
+            <h1>Your information</h1>
+
+            <h2>Name <span>     :     Suraj Yadav</span></h2>
+            <h2>Email <span>    :    sy241527@gmail.com</span></h2>
+            <h2>Phone <span>    :     +91 8810300724</span></h2>
+            <h2>Marks <span>    :      500.00</span></h2>
+
+            <button>Next <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+</body>
+
+
+
+
+
+
+<script>
+
+    var a=document.getElementById("social");
+    window.addEventListener("scroll",sc)
+
+    function sc(){
+
+if(window.pageYOffset>=20){
+a.classList.add("sticky");
+
+}
+else{
+
+    a.classList.remove("sticky");
+}
+
+    }
+</script>
+</html>
